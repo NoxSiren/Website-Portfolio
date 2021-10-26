@@ -1,0 +1,8 @@
+h1 {
+color: rgb(82, 82, 82);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+justify-content: center;
+border: 5px solid rgb(128, 128, 128);
+padding: 10px;
+}
