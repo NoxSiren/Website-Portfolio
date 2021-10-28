@@ -32,11 +32,32 @@ img{
     margin: 0 0 15px 20px;
 }
 
+/* .intro,.about,.experience{
+    color: rgb(82, 82, 82);
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius:10px;
+    background-color: rgb(247, 247, 247);
+    margin: 5px 10%;
+} */
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80");
+    background-attachment: fixed;
+    background-repeat: repeat-y repeat-x;
+    background-color: rgb(208, 225, 236);
+}
+
+
 #intro, #about, #experience{
     margin-top: 65px;
     color: rgb(82, 82, 82);
     font-family:'Courier New', Courier, monospace;
     text-align: center;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius:10px;
+    background-color: rgb(247, 247, 247);
+    margin: 5px 10%;
 }
 
 #main-header{
@@ -66,7 +87,7 @@ img{
         background-color: transparent;
       }
       a:visited {
-        color: rgb(129, 129, 129);
+        color: rgb(161, 161, 161);
         background-color: transparent;
       }
       a:hover {
