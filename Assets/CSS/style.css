@@ -1,47 +1,54 @@
 h1{
-color: rgb(82, 82, 82);
-font-family:'Courier New', Courier, monospace;
+    color: rgb(82, 82, 82);
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius:10px;
+    background-color: rgb(247, 247, 247);
 
 }
 
 h2{
-font-family: 'Courier New', Courier, monospace;
-font-size: 18px;
-text-align: center;
-width: 10%;
-height: 100%;
-margin: 0 auto;
-border: 1px solid rgb(128, 128, 128);
-background-color: rgb(238, 238, 238);
-color:rgb(82, 82, 82)
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    margin: 50px auto;
+    border-radius:10px;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(247, 247, 247);
+    color:rgb(82, 82, 82)
 }
     
-p {
-color: rgb(82, 82, 82);
-font-family:'Courier New', Courier, monospace;
-text-align: center;
+li{
+    color: rgb(82, 82, 82);
+    font-family:'Courier New', Courier, monospace;
 }
 
-li{
-color: rgb(82, 82, 82);
-font-family:'Courier New', Courier, monospace;
+img{
+    float: right;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius:10px;
+    margin: 0 0 15px 20px;
+}
+
+#intro, #about, #experience{
+    margin-top: 65px;
+    color: rgb(82, 82, 82);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #main-header{
-display: flex;
-justify-content: center;
-height: 10%;
-width: 100%;
-/* margin: 1% auto;
-border: 1px solid rgb(128, 128, 128);
-padding: 10px; */
-
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
 }
 
 #title{
     height: 100%;
     width: 45%;
-    background-color: rgb(238, 238, 238);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,9 +58,38 @@ padding: 10px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
     }
 
-    *{
-        margin: 1% 0;
-        padding: 0;
+    a:link {
+        color: black;
+        background-color: transparent;
+      }
+      a:visited {
+        color: rgb(129, 129, 129);
+        background-color: transparent;
+      }
+      a:hover {
+        color: rgb(89, 89, 211);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: rgb(241, 241, 241);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+
+#foot{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+*{
+    margin: 1% 0;
+    padding: 0;
     }
