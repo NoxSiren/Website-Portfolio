@@ -25,8 +25,15 @@ li{
     font-family:'Courier New', Courier, monospace;
 }
 
-img{
+.img{
     float: right;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius:10px;
+    margin: 0 0 15px 20px;
+}
+
+.img2{
+    float: left;
     border: 1px solid rgb(128, 128, 128);
     border-radius:10px;
     margin: 0 0 15px 20px;
