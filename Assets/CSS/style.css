@@ -64,7 +64,8 @@ body{
     border: 1px solid rgb(128, 128, 128);
     border-radius:10px;
     background-color: rgb(247, 247, 247);
-    margin: 5px 10%;
+    margin: 5% 10%;
+    list-style-type: none;
 }
 
 #main-header{
@@ -82,6 +83,14 @@ body{
     align-items: center;
 }
 
+.projects{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 5px 0;
+}
+
 #links {
     display: flex;
     flex-direction: row;
@@ -90,15 +99,15 @@ body{
     }
 
     a:link {
-        color: black;
+        color: rgb(100, 100, 100);
         background-color: transparent;
       }
       a:visited {
-        color: rgb(161, 161, 161);
+        color: rgb(64, 164, 197);
         background-color: transparent;
       }
       a:hover {
-        color: rgb(89, 89, 211);
+        color: rgb(67, 67, 206);
         background-color: transparent;
         text-decoration: underline;
       }
